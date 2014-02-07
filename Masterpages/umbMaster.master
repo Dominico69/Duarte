@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:content contentplaceholderid="ContentPlaceHolderDefault" runat="server">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head" runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<asp:ContentPlaceHolder Id="HeadContent" runat="server">
+  </asp:ContentPlaceHolder>
+  
+  <!-- META Tag Macro -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="imagetoolbar" content="false" /> 
+   <!--Styles-->
+
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" media="screen"/>
+
+  <!--Scrips-->  
+  <script type="text/javascript" src="/scripts/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="/scripts/jquery.cycle.all.min.js"></script>
+  
+</head>
+<body class="t">
+  
+    <div id="logo" style="display:none">
+      <h1><a href="/"><umbraco:item runat="server" field="siteName" recursive="true"></umbraco:item></a></h1>
+    </div>
+
+  
+ <div id="page">
+  <div id="header">
+    <a href="/"><img src="/images/Web-Logo.png" width="250" height="141" /></a>
+    <div id="sitedescription">
+      <h1>Duarte Consultancy Ltd</h1>
+    </div>
+    <div id="mainmenu">
+            <umbraco:Macro Alias="umbTopNavigation" runat="server"></umbraco:Macro>
+    </div>
+    <div class="mainmenucorner">&nbsp;</div>
+  </div>
+<asp:contentplaceholder id="cp_top" runat="server">
+  </asp:contentplaceholder>
+
+   
+ <div id="content">
+
+        <div id="leftcontent">
+          <form id="RunwayMasterForm" runat="server">
+           <asp:contentplaceholder id="cp_content" runat="server"></asp:contentplaceholder>
+          </form>
+                
+        </div>
+    
+  </div>
+  <div id="footer">
+    <div id="footermenu">
+          <h4>Navigation</h4>
+           <umbraco:Macro Alias="umbTopNavigation" runat="server"></umbraco:Macro>
+    </div>   
+    <div id="footercontact">
+           <h4>Contact information</h4>
+            Duarte Consultancy Ltd<br />          
+            <br />Telephone: 07858 972 513
+            <br />Email: <a href="mailto:chantal@duarteconsultancy.co.uk">chantal@duarteconsultancy.co.uk</a>
+    </div>
+    <div id="footerabout">
+           <h4>About us</h4>
+		Duarte Consultancy Limited was founded by Company Director, Chantal Duarte in October 2013 and operates in the East Midlands area.<br />
+		<br />Find out more on the <a href="/about.aspx" title="Information about Duarte Consultancy Ltd">About Us</a> page.
+    </div>  
+</div>
+<!-- end div#wrapper -->
+</body>
+</html>
+</asp:content>

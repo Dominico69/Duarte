@@ -1,0 +1,60 @@
+2014-02-04 20:53:41,839 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-04 20:53:41,857 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2014-02-04 20:53:41,891 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-04 20:53:42,896 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1003ms)
+2014-02-04 20:53:43,003 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-04 20:53:43,010 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2014-02-04 20:53:43,012 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-04 20:53:43,017 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2014-02-04 20:53:43,018 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-04 20:53:43,023 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-02-04 20:53:43,032 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-04 20:53:43,039 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2014-02-04 20:53:43,039 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-04 20:53:43,045 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-02-04 20:53:44,168 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-04 20:53:46,404 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-04 20:53:46,413 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-04 20:53:46,427 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2014-02-04 20:53:46,617 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-04 20:53:46,665 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 48ms)
+2014-02-04 20:53:47,819 [10] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2014-02-04 20:53:49,337 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-04 20:53:49,348 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.XsltExtensionAttribute, found 0 (took 11ms)
+2014-02-04 20:54:13,391 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-04 20:54:13,399 [10] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2014-02-04 21:11:16,811 [10] INFO  umbraco.BasePages.BasePage - [Thread 41] User Dom (Id: 0) logged in
+2014-02-04 21:11:17,110 [10] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-04 21:11:17,124 [10] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 14ms)
+2014-02-04 21:11:17,308 [10] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.interfaces.ITree
+2014-02-04 21:11:17,341 [10] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 32ms)
+2014-02-04 21:43:55,847 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 45] New document 1063
+2014-02-04 21:43:55,921 [10] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-04 21:43:55,966 [10] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 45ms)
+2014-02-04 21:44:40,598 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'About' with Id '1063' has been published.
+2014-02-04 21:44:40,718 [10] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-04 21:44:40,734 [10] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2014-02-04 21:45:07,531 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'About' with Id '1063' has been published.
+2014-02-04 21:47:24,891 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1064
+2014-02-04 21:48:03,219 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Mentoring and Athlete Support Services' with Id '1064' has been published.
+2014-02-04 21:48:19,554 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Mentoring and Athlete Support Services' with Id '1064' has been published.
+2014-02-04 21:48:46,760 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 1065
+2014-02-04 21:49:40,762 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Accredited Mentoring Training Courses' with Id '1065' has been published.
+2014-02-04 21:50:57,880 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 20] New document 1066
+2014-02-04 21:52:21,028 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Testimonials' with Id '1066' has been published.
+2014-02-04 21:52:43,895 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 1067
+2014-02-04 21:53:01,665 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-04 21:53:30,982 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 45] New document 1068
+2014-02-04 21:53:46,231 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Contact' with Id '1068' has been published.
+2014-02-04 21:54:11,251 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Contact' with Id '1068' has been published.
+2014-02-04 21:55:29,876 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'Installing modules' with Id '1052' has been unpublished.
+2014-02-04 21:55:45,435 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Go further' with Id '1053' has been unpublished.
+2014-02-04 21:55:59,422 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Getting started' with Id '1054' has been unpublished.
+2014-02-04 22:21:13,439 [10] ERROR dashboardUtilities.FeedProxy - [Thread 47] Exception occurred
+System.Net.WebException: The remote name could not be resolved: 'umbraco.org'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2014-02-04 22:21:25,006 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-04 22:21:25,353 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 346ms)
+2014-02-04 22:48:02,167 [10] INFO  umbraco.BasePages.BasePage - [Thread 52] User Dom (Id: 0) logged in
