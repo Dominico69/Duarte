@@ -1,0 +1,54 @@
+2014-02-26 21:27:19,944 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-26 21:27:19,960 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2014-02-26 21:27:20,022 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-26 21:27:22,097 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2086ms)
+2014-02-26 21:27:22,315 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-26 21:27:22,331 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2014-02-26 21:27:22,331 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-26 21:27:22,347 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2014-02-26 21:27:22,347 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-26 21:27:22,347 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2014-02-26 21:27:22,347 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-26 21:27:22,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2014-02-26 21:27:22,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-26 21:27:22,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-02-26 21:27:26,030 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-26 21:27:35,469 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-26 21:27:35,485 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-26 21:27:35,501 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 20ms)
+2014-02-26 21:27:35,750 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-26 21:27:35,828 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 70ms)
+2014-02-26 21:27:38,933 [10] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2014-02-26 21:27:43,753 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-26 21:27:43,769 [10] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.XsltExtensionAttribute, found 0 (took 11ms)
+2014-02-26 21:27:53,599 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-26 21:27:53,614 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 12ms)
+2014-02-26 21:28:47,746 [10] INFO  umbraco.BasePages.BasePage - [Thread 7] User Dom (Id: 0) logged in
+2014-02-26 21:28:47,965 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-26 21:28:47,980 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2014-02-26 21:28:48,339 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2014-02-26 21:28:48,370 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 43ms)
+2014-02-26 21:28:58,932 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-26 21:28:58,948 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2014-02-26 21:34:42,621 [10] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-26 21:34:42,652 [10] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 26ms)
+2014-02-26 21:35:13,634 [10] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-26 21:35:13,649 [10] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 13ms)
+2014-02-26 21:41:17,442 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 19] Couldn't find any page with nodeId=1058. This is most likely caused by the page not being published.
+2014-02-26 21:41:55,928 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:42:22,310 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:44:33,970 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:46:19,814 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:46:42,443 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:47:24,253 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:48:31,066 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:48:52,107 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:49:10,234 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:49:26,584 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:49:47,421 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:50:04,706 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:50:16,905 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:50:33,785 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:50:53,177 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:51:04,799 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-26 21:51:17,764 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Partner Organisations' with Id '1067' has been published.

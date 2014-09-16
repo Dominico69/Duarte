@@ -66,11 +66,10 @@ a {
 }
 
 #page {
-  width:70%;
-  margin-left:15%;
-  margin-right:15%;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
   text-align:left;
-  padding:15px;
   padding-bottom: 0px;
   background: #FFF;
 }
@@ -78,7 +77,8 @@ a {
 /* Header */
 
 #header {
-  margin-bottom: 1%;   
+  margin-bottom: 1%;
+  padding: 10px;   
 }
   #header a,#header a img{
     border: none;
@@ -89,10 +89,10 @@ a {
     margin: 7px;
   }
     #header #sitedescription h1 {
-      font-weight: normal;
+      font-weight: bold;
       position: relative;
-      font-size: 16px;
-      line-height: 0.5em;
+      font-size: 22px;
+      line-height: 1em;
     }  
   #header #mainmenu{
     margin: 0px;
@@ -323,9 +323,11 @@ a {
   font-size: 12px;
   color: #FFF;
   background-color: #000;
-  padding: 20px;
+  /*padding: 20px;*/
   overflow: auto;
   width: 95%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
   #footer a{
     font-size: 12px;
@@ -342,11 +344,12 @@ a {
       margin-top: 0px;
     }
   #footer #footermenu{
-    width: 30%;
+    width: 29%;
     float: left;
     margin-bottom: 15px;
     margin-right: 15px;
     height: 150px;
+    padding: 1%;
   }
     #footer #footermenu h4{
       font-size: 16px;
@@ -363,61 +366,27 @@ a {
         padding: 0px;
         margin-bottom: 3px;
       }
-  /*#footer #footershare{
-    width: 22%;
-    float: left;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    height: 150px;
-  }
-    #footer #footershare ul{
-      list-style: none;
-      padding: 0px;
-      margin: 0px;
-    }
-      #footer #footershare ul li{
-        list-style: none;
-        padding: 0px;
-        margin-bottom: 3px;
-      }
-    #footer #footershare a{
-      
-    }
-      #footer #footershare a img{
-        vertical-align: middle;
-        filter:alpha(opacity=25);
-        -moz-opacity:0.25;
-        -khtml-opacity: 0.25;
-        opacity: 0.25;
-        margin-right: 10px;
-        border: none;
-      }
-        #footer #footershare a:hover img{
-          vertical-align: middle;
-          filter:alpha(opacity=100);
-          -moz-opacity:1;
-          -khtml-opacity: 1;
-          opacity: 1;
-        }*/
+ 
   #footer #footercontact{
-    width: 30%;
+    width: 29%;
     float: left;
     margin-bottom: 15px;
     margin-right: 15px;
     height: 150px;
+    padding: 1%;
   }
   #footer #footerabout{
-    width: 30%;
+    width: 29%;
     float: left;
     margin-bottom: 15px;
     margin-right: 15px;
     height: auto;
+    padding: 1%;
   }
 
   #mainmenu {
       border: 3px solid #000;
   }
-    
     
     
 
@@ -433,7 +402,17 @@ a {
   height: 150px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
 
+    #page {width:100%;margin:0;}
+    #footer{width:100%;}
+
+
+}
 
 
 

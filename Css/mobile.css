@@ -1,0 +1,16 @@
+﻿body {width:100%;}
+
+#page {min-width:100px;max-width:799px;margin:0;width:100%; padding-left:0; padding-right:0; margin:0;}
+
+#mainmenu ul li{clear:both;float:left; width:99%;}
+#leftcontent {width:98%;}
+#leftcontent p {clear:both;}
+#img {padding:0; margin:0; float:left;}
+#header a img {display:block; max-width:99%; text-align:center; margin-left:auto; margin-right:auto;}
+#footer {width:100%; margin:0; background-color:#000; padding:0; padding-bottom:5px;}
+#footercontact, #footerabout {width:100%; clear:both; height:auto;}
+#header #sitedescription {display:none;}
+#header #mainmenu ul li {width: 99%; border: 1px solid #FFF; padding-left:0; padding-right:0;}
+#footer #footermenu {display:none;}
+#footer #footerabout, #footer #footercontact {width:90%; margin-left:10px; margin-bottom:0;}
+#footer #footerabout {border-top:3px solid #FFF;}

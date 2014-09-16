@@ -1,0 +1,56 @@
+2014-02-13 21:25:20,488 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-02-13 21:25:20,510 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 16ms)
+2014-02-13 21:25:20,533 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-02-13 21:25:21,310 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 774ms)
+2014-02-13 21:25:21,364 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-02-13 21:25:21,374 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2014-02-13 21:25:21,377 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-02-13 21:25:21,389 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2014-02-13 21:25:21,390 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-02-13 21:25:21,401 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 11ms)
+2014-02-13 21:25:21,414 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-02-13 21:25:21,422 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2014-02-13 21:25:21,422 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-02-13 21:25:21,428 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2014-02-13 21:25:21,996 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-02-13 21:25:23,450 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-02-13 21:25:23,494 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-02-13 21:25:23,507 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2014-02-13 21:25:23,691 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-02-13 21:25:23,719 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 27ms)
+2014-02-13 21:25:24,703 [10] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2014-02-13 21:25:33,671 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.XsltExtensionAttribute
+2014-02-13 21:25:33,681 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.XsltExtensionAttribute, found 0 (took 10ms)
+2014-02-13 21:25:46,717 [10] INFO  umbraco.BasePages.BasePage - [Thread 9] User Dom (Id: 0) logged in
+2014-02-13 21:25:46,904 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-13 21:25:46,912 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 7ms)
+2014-02-13 21:25:47,056 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2014-02-13 21:25:47,084 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 27ms)
+2014-02-13 21:25:51,547 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-02-13 21:25:51,557 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 9ms)
+2014-02-13 21:25:59,158 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-13 21:25:59,185 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 27ms)
+2014-02-13 21:26:30,354 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-02-13 21:26:30,364 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2014-02-13 21:26:55,007 [10] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-13 21:26:55,026 [10] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 18ms)
+2014-02-13 21:28:16,410 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'Partner Organisations' with Id '1067' has been published.
+2014-02-13 21:28:51,629 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Testimonials' with Id '1066' has been published.
+2014-02-13 21:29:53,709 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Contact' with Id '1068' has been published.
+2014-02-13 21:31:40,278 [10] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2014-02-13 21:31:40,285 [10] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 6ms)
+2014-02-13 21:31:40,663 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1071
+2014-02-13 21:31:41,151 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 21] Success uploading to parent 1071
+2014-02-13 21:31:41,608 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 21] Success uploading to parent 1071
+2014-02-13 21:31:42,310 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 21] Success uploading to parent 1071
+2014-02-13 21:31:42,693 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 21] Success uploading to parent 1071
+2014-02-13 21:31:43,158 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 21] Success uploading to parent 1071
+2014-02-13 21:31:43,673 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1071
+2014-02-13 21:35:17,288 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:36:00,209 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:36:28,693 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:37:54,295 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:38:21,867 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:39:11,717 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:40:02,084 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Administration Services' with Id '1070' has been published.
+2014-02-13 21:55:00,649 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Administration Services' with Id '1070' has been published.

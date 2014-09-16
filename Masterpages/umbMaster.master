@@ -5,16 +5,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="head" runat="server">
+
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <asp:ContentPlaceHolder Id="HeadContent" runat="server">
   </asp:ContentPlaceHolder>
   
   <!-- META Tag Macro -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta http-equiv="imagetoolbar" content="false" /> 
+    <meta http-equiv="imagetoolbar" content="false" />
+    <!-- <meta name="viewport" content="width=device-width" initial-scale="1.0" /> -->
    <!--Styles-->
 
     <link rel="stylesheet" type="text/css" href="/css/custom.css" media="screen"/>
+    <link rel='stylesheet' media='screen and (min-width: 100px) and (max-width: 799px)' href='/css/mobile.css' />
 
   <!--Scrips-->  
   <script type="text/javascript" src="/scripts/jquery-1.4.4.min.js"></script>
@@ -32,7 +35,7 @@
   <div id="header">
     <a href="/"><img src="/images/Web-Logo.png" width="250" height="141" /></a>
     <div id="sitedescription">
-      <h1>Duarte Consultancy Ltd</h1>
+      <h1>Mentoring, Athlete Support <br/>and Administration Consultancy</h1>
     </div>
     <div id="mainmenu">
             <umbraco:Macro Alias="umbTopNavigation" runat="server"></umbraco:Macro>
